@@ -9,6 +9,9 @@ import org.openqa.selenium.WebElement;
 
 public class WixTest extends BaseTest {
 
+    // Analyze and refactor the test.
+    // Share any ideas how the test can be improved.
+    
     @Test
     public void shouldSearchForWixInGoogle() {
 
