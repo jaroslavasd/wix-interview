@@ -61,8 +61,6 @@ public class WixTest extends BaseTest {
         WebElement signUpButton = driver.findElement(signUpButtonBy);
         emailInput.sendKeys("myTest2435@localhost.wix.com");
         emailConfirmInput.sendKeys("myTest2435@localhost.wix.com");
-        passwordInput.sendKeys("veryStrong!Password123");
-        passwordConfirmInput.sendKeys("veryStrong!Password123");
         signUpButton.click();
 
         Utils.waitForElementToBeDisplayed(skipAdiLinkBy, driver);
